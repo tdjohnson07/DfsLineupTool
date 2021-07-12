@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/DfsLineupTool/static/css/main.a617e044.chunk.css",
+    "main.js": "/DfsLineupTool/static/js/main.8f463d19.chunk.js",
+    "main.js.map": "/DfsLineupTool/static/js/main.8f463d19.chunk.js.map",
+    "runtime-main.js": "/DfsLineupTool/static/js/runtime-main.0642460b.js",
+    "runtime-main.js.map": "/DfsLineupTool/static/js/runtime-main.0642460b.js.map",
+    "static/js/2.8df97c93.chunk.js": "/DfsLineupTool/static/js/2.8df97c93.chunk.js",
+    "static/js/2.8df97c93.chunk.js.map": "/DfsLineupTool/static/js/2.8df97c93.chunk.js.map",
+    "static/js/3.50fa28e9.chunk.js": "/DfsLineupTool/static/js/3.50fa28e9.chunk.js",
+    "static/js/3.50fa28e9.chunk.js.map": "/DfsLineupTool/static/js/3.50fa28e9.chunk.js.map",
+    "index.html": "/DfsLineupTool/index.html",
+    "static/css/main.a617e044.chunk.css.map": "/DfsLineupTool/static/css/main.a617e044.chunk.css.map",
+    "static/js/2.8df97c93.chunk.js.LICENSE.txt": "/DfsLineupTool/static/js/2.8df97c93.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/DfsLineupTool/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0642460b.js",
+    "static/js/2.8df97c93.chunk.js",
+    "static/css/main.a617e044.chunk.css",
+    "static/js/main.8f463d19.chunk.js"
+  ]
+}
