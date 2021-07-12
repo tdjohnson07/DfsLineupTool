@@ -1,27 +1,13 @@
   
 import React, {  } from 'react';
+import {useSelector, useDispatch} from 'react-redux';
 import { CSVReader } from 'react-papaparse';
+import {createPlayerLists} from '../actions/actions';
 
-export function fileupload(){
+export function Fileupload(){
+    const dispatch = useDispatch();
 
     const handleOnDrop = (data) => {
-        console.log('---------------------------');
-        console.log(data);
-        console.log('---------------------------');
-        mapcsvToPlayerArray(data);
-      };
-
-    const handleOnError = (err, file, inputElem, reason) => {
-        console.log(err);
-      };
-    
-    const handleOnRemoveFile = (data) => {
-        console.log('---------------------------');
-        console.log(data);
-        console.log('---------------------------');
-      };
-
-    const mapcsvToPlayerArray = (data) => {
         let players = [];
         data.forEach((data, index) => {
             if(index <= 1){
@@ -33,8 +19,16 @@ export function fileupload(){
         });
 
         console.log(players);
+        dispatch(createPlayerLists(players));
+      };
 
-    }
+    const handleOnError = (err, file, inputElem, reason) => {
+        console.log(err);
+      };
+    
+    const handleOnRemoveFile = (data) => {
+        console.log(data);
+      };
 
     return(
         <div>
@@ -46,4 +40,4 @@ export function fileupload(){
     )
 }
 
-export default fileupload;
+export default Fileupload;
