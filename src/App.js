@@ -1,14 +1,30 @@
 import './App.css';
 import  Fileupload  from './components/fileupload';
+import PlayerList from './components/playerlist';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 function App() {
   return (
     <div className="App">
       <Fileupload />
-      {/* <header className="App-header">
-        <h1>DFS Lineup Tool</h1>
-        <h4>Coming Soon....</h4>
-      </header> */}
+      <Container fluid>
+        <Row>
+          <Col>
+            <PlayerList />
+          </Col>
+          <Col>
+            <p>Player Pool</p>
+          </Col>
+          <Col>
+            <p>Line Ups</p>
+          </Col>
+        </Row>
+
+      </Container>
+
+      
       <footer>
         <p>A T-Nasty Production</p>
       </footer>
